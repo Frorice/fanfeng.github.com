@@ -126,9 +126,9 @@ a {
 /*article*/
 
 section.box {
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
+  
+  display: block;
+ 
   width: 60%;
   position: relative;
   left: 20%;
@@ -151,6 +151,8 @@ section.right {
 }
 
 #message > ul {
+  padding-right: 5em;
+  padding-left: 0;
   display: inline-block;
 }
 #message>ul>li {
@@ -158,5 +160,5 @@ display: block;
 }
 #message{
   position:relative;
-  left:-2em;
+
 }
